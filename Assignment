@@ -50,57 +50,11 @@
 
 • How is Cell Padding different from Cell Spacing? With Example.
 = Cellpadding basically defines the space present between a table cell border and the content present in it. Cellspacing basically defines the space present between individual adjacent cells. One can create it using the tag of HTML <table>, but it sets the type attribute to cellpadding.
-  Example :
-  <body> 
-  <table border="1" 
-       cellpadding="4"
-       cellspacing="5"> 
-  <thead> 
-  <td><span>Name</span></td> 
-  <td><span>Age</span></td> 
-  </thead> 
-  <tbody> 
-  <tr> 
-    <td>Rani</td> 
-    <td>30</td> 
-  </tr> 
-   <tr> 
-    <td>Rajan</td> 
-    <td>35</td> 
-  </tr> 
-  <tr> 
-    <td>Akshaya</td> 
-    <td>17</td> 
-  </tr> 
-  <tr> 
-    <td>Ashick</td> 
-    <td>13</td> 
-  </tr> 
-  </tbody> 
-  </table> 
-  </body> 
 
 • How can we club two or more rows or columns into a single row or column in an HTML table? With Example.
 = To club two or more rows or columns into a single row or column in an HTML table, you can use the colspan and rowspan attributes
   colspan: Used for the number of columns that a cell should span
-  rowspan: Used for the number of rows that a cell should span
-  Example :
-  <table align="center"> 
-        <tr> 
-            <th>Name</th> 
-            <th>Age</th> 
-        </tr> 
-        <tr> 
-            <td>Akku</td> 
-  
-            <!-- This cell will take up 
-                space on two rows -->
-            <td rowspan="2">44</td> 
-        </tr> 
-        <tr> 
-            <td>fahad</td> 
-        </tr> 
-    </table> 
+  rowspan: Used for the number of rows that a cell should span 
 
 • What is the difference between a block-level element and an inline element?
 = Block elements always start from a new line. Inline elements never start from a new line. Block elements cover space from left to right as far as it can go. Inline elements only cover the space as bounded by the tags in the HTML element.
@@ -115,14 +69,9 @@
 
 • What is the use of an iframe tag? With Example.
 = An inline frame (iframe) is a HTML element that loads another HTML page within the document. It essentially puts another webpage within the parent page. They are commonly used for advertisements, embedded videos, web analytics and interactive content.
-  Example :
-  <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
   
 • What is the use of a span tag? Explain with example.
 = In HTML, the span tag is a generic inline container element. You use this element to wrap sections of text for styling purposes or to add attributes to a section of text without creating a new line of content. It is similar — but not the same as — the <div> tag.
-  Example :
-  A <span> element which is used to color a part of a text:
-  <p>My mother has <span style="color:blue">blue</span> eyes.</p>
 
 • How to insert a picture into a background image of a web page? With Example.
 = We can use the background attribute in the body tag to set an image as the background of the webpage. We will need to specify the URL or the location of the image which we want to set to the background attribute of the body tag.
